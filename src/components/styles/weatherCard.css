@@ -1,0 +1,57 @@
+
+.weather__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color:rgba(40, 30, 105, 0.819);
+    border-radius: 20px;
+    width: 80%;
+    height: 80%;
+    max-width: 550px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.weather__title{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 2.50rem;
+    font-family: inherit;
+    
+}
+
+.weather__place {
+    margin-top: 10px;
+    font-size: 2.25rem;
+    font-family: inherit;
+}
+
+.weather__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 50px;
+    flex-wrap: wrap;
+    
+}
+
+.weather__description {
+    margin: 15px 0;
+    text-align: left;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: capitalize;
+}
+
+.weather__item {
+    display: grid;
+    grid-template-columns: 5fr 4fr;
+    gap: 10px;
+    grid-template-rows: 1fr;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
